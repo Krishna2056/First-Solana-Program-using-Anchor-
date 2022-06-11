@@ -1,0 +1,1 @@
+/home/krishna-rijal/Projects/Solana/First-Solana-Program-using-Anchor-/target/bpfel-unknown-unknown/release/frdm.so: /home/krishna-rijal/Projects/Solana/First-Solana-Program-using-Anchor-/programs/frdm/src/lib.rs

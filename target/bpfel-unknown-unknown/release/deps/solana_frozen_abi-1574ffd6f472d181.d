@@ -1,0 +1,10 @@
+/home/krishna-rijal/Projects/Solana/frdm/frdm/target/bpfel-unknown-unknown/release/deps/solana_frozen_abi-1574ffd6f472d181.rmeta: /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/lib.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_digester.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_example.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/hash.rs
+
+/home/krishna-rijal/Projects/Solana/frdm/frdm/target/bpfel-unknown-unknown/release/deps/libsolana_frozen_abi-1574ffd6f472d181.rlib: /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/lib.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_digester.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_example.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/hash.rs
+
+/home/krishna-rijal/Projects/Solana/frdm/frdm/target/bpfel-unknown-unknown/release/deps/solana_frozen_abi-1574ffd6f472d181.d: /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/lib.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_digester.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_example.rs /home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/hash.rs
+
+/home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/lib.rs:
+/home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_digester.rs:
+/home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/abi_example.rs:
+/home/krishna-rijal/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-frozen-abi-1.9.28/src/hash.rs:
