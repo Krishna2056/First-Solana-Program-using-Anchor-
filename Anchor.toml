@@ -1,13 +1,13 @@
 [features]
 seeds = false
-[programs.localnet]
+[programs.devnet]
 frdm = "FRCFKyUkRdiiZEfZdr4vGYAY9azViyRoAXMBJSyAFyKy"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "localnet"
+cluster = "https://api.devnet.solana.com"
 wallet = "/home/krishna-rijal/.config/solana/id.json"
 
 [scripts]

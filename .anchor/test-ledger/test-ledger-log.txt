@@ -2,14 +2,12 @@ Ledger location: .anchor/test-ledger
 Log: .anchor/test-ledger/validator.log
 Initializing...
 Waiting for fees to stabilize 1...
-Waiting for fees to stabilize 2...
 Connecting...
-Identity: ArxwdXU8pGHWGrsFF7fw2PQf6QZ3x1hyx2REXpsFpXBS
-Genesis Hash: 4oXxh2fYyAmHEVvxho8YQXHuQHG3qnZkRZKJnzghBkSi
+Identity: 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3
+Genesis Hash: Eza7UCzfXbdycXpf4JLKZqeLseSmB4HJhA9tbmBVp3vd
 Version: 1.9.1
-Shred Version: 23060
+Shred Version: 8454
 Gossip Address: 127.0.0.1:1024
 TPU Address: 127.0.0.1:1027
 JSON RPC URL: http://127.0.0.1:8899
-00:00:05 | Processed Slot: 2 | Confirmed Slot: 2 | Finalized Slot: 0 | Full Snapshot Slot: - | Incremental Snapshot Slot: - | Transactions: 2 | ◎499.999995000
-00:00:05 | Processed Slot: 2 | Confirmed Slot: 2 | Finalized Slot: 0 | Full Snapshot Slot: - | Incremental Snapshot Slot: - | Transactions: 2 | ◎499.999995000
+00:00:05 | Processed Slot: 1 | Confirmed Slot: 1 | Finalized Slot: 0 | Full Snapshot Slot: - | Incremental Snapshot Slot: - | Transactions: 1 | ◎500.000000000

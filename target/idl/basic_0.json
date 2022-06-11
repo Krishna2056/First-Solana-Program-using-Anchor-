@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "name": "frdm",
+  "name": "basic_0",
   "instructions": [
     {
       "name": "initialize",
@@ -9,3 +9,4 @@
     }
   ]
 }
+

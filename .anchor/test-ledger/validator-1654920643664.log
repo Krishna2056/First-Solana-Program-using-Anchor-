@@ -1,0 +1,172 @@
+[2022-06-11T04:10:43.664164451Z INFO  solana_test_validator] solana-validator 1.9.1 (src:b66e2ae3; feat:4100269022)
+[2022-06-11T04:10:43.664213035Z INFO  solana_test_validator] Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+            "--ledger",
+            ".anchor/test-ledger",
+            "--mint",
+            "BqXzC9YikQQcBCvFZYudApVSpUF5idhEMYBqzXsqeRvQ",
+            "--bpf-program",
+            "FRCFKyUkRdiiZEfZdr4vGYAY9azViyRoAXMBJSyAFyKy",
+            "/home/krishna-rijal/Projects/Solana/First-Solana-Program-using-Anchor-/target/deploy/frdm.so",
+        ],
+    }
+[2022-06-11T04:10:43.664264720Z WARN  solana_perf] CUDA is disabled
+[2022-06-11T04:10:43.664270142Z INFO  solana_perf] AVX detected
+[2022-06-11T04:10:43.664272715Z INFO  solana_perf] AVX2 detected
+[2022-06-11T04:10:43.665734162Z INFO  solana_faucet::faucet] Faucet started. Listening on: 0.0.0.0:9900
+[2022-06-11T04:10:43.665778645Z INFO  solana_faucet::faucet] Faucet account address: 6H5fH2c94ogqRdNK66JQ3diqJqdUKJLTb3JtXXRKJ2EV
+[2022-06-11T04:10:43.669927457Z INFO  solana_ledger::blockstore] Maximum open file descriptors: 1048576
+[2022-06-11T04:10:43.669946652Z INFO  solana_ledger::blockstore] Opening database at ".anchor/test-ledger/rocksdb"
+[2022-06-11T04:10:46.028615048Z INFO  solana_ledger::blockstore] ".anchor/test-ledger/rocksdb" open took 2.4s
+[2022-06-11T04:10:46.042676472Z INFO  solana_metrics::metrics] metrics disabled: SOLANA_METRICS_CONFIG: environment variable not found
+[2022-06-11T04:10:46.042857139Z INFO  solana_metrics::metrics] datapoint: shred_insert_is_full total_time_ms=0i slot=0i last_index=2i num_repaired=0i num_recovered=0i
+[2022-06-11T04:10:46.124982523Z INFO  solana_runtime::hardened_unpack] Extracting ".anchor/test-ledger/genesis.tar.bz2"...
+[2022-06-11T04:10:46.147769290Z INFO  solana_runtime::hardened_unpack] unpacked 10 entries total
+[2022-06-11T04:10:46.147778089Z INFO  solana_runtime::hardened_unpack] Extracted ".anchor/test-ledger/genesis.tar.bz2" in 22.778415ms
+[2022-06-11T04:10:46.148719684Z WARN  solana_core::validator] identity: 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3
+[2022-06-11T04:10:46.148730479Z WARN  solana_core::validator] vote account: EMAz797qdBBM2mnSXkze1YWccSKZkinSxobKYoxYTufJ
+[2022-06-11T04:10:46.148737255Z WARN  solana_core::validator] authorized voter: EMAz797qdBBM2mnSXkze1YWccSKZkinSxobKYoxYTufJ
+[2022-06-11T04:10:46.148741205Z INFO  solana_core::validator] Initializing sigverify...
+[2022-06-11T04:10:46.148743398Z INFO  solana_core::validator] Done.
+[2022-06-11T04:10:46.148747850Z INFO  solana_core::validator] Cleaning accounts paths..
+[2022-06-11T04:10:46.148756643Z WARN  solana_core::validator] encountered error removing accounts path: ".anchor/test-ledger/accounts": No such file or directory (os error 2)
+[2022-06-11T04:10:46.148763528Z INFO  solana_core::validator] done. clean_accounts_paths took 12us
+[2022-06-11T04:10:46.148769558Z INFO  solana_core::validator] AccountsDb plugin: accounts_update_notifier: false transaction_notifier: false
+[2022-06-11T04:10:46.148774758Z INFO  solana_core::system_monitor_service] Starting SystemMonitorService
+[2022-06-11T04:10:46.148806256Z INFO  solana_core::validator] loading ledger from ".anchor/test-ledger"...
+[2022-06-11T04:10:46.151878012Z INFO  solana_core::validator] genesis hash: Eza7UCzfXbdycXpf4JLKZqeLseSmB4HJhA9tbmBVp3vd
+[2022-06-11T04:10:46.151893612Z INFO  solana_ledger::blockstore] Maximum open file descriptors: 1048576
+[2022-06-11T04:10:46.151897008Z INFO  solana_ledger::blockstore] Opening database at ".anchor/test-ledger/rocksdb"
+[2022-06-11T04:10:47.149451096Z INFO  solana_metrics::metrics] datapoint: memory-stats total=8169406464i swap_total=2097148i free_percent=18.979646682739258 used_bytes=3635568640i avail_percent=55.497764587402344 buffers_percent=2.1721408367156982 cached_percent=41.803245544433594 swap_free_percent=99.95059967041016
+[2022-06-11T04:10:47.788430018Z INFO  solana_ledger::blockstore] ".anchor/test-ledger/rocksdb" open took 1.6s
+[2022-06-11T04:10:47.791072327Z INFO  solana_ledger::bank_forks_utils] Initializing bank snapshot path: .anchor/test-ledger/snapshot
+[2022-06-11T04:10:47.791895279Z INFO  solana_ledger::bank_forks_utils] No snapshot package available; will load from genesis
+[2022-06-11T04:10:47.791927864Z INFO  solana_ledger::bank_forks_utils] Processing ledger from genesis
+[2022-06-11T04:10:47.810652039Z INFO  solana_ledger::blockstore_processor] processing ledger for slot 0...
+[2022-06-11T04:10:47.810656181Z INFO  solana_metrics::metrics] datapoint: bank-timestamp get_timestamp_estimate_us=3i
+[2022-06-11T04:10:47.810750557Z INFO  solana_metrics::metrics] datapoint: bank-timestamp-correction slot=0i from_genesis=1654920643i corrected=0i ancestor_timestamp=0i
+[2022-06-11T04:10:47.812101668Z INFO  solana_metrics::metrics] datapoint: load_to_collect_rent_eagerly_scan_elapsed total_elapsed=6i latest_slot_elapsed=0i read_lock_elapsed=0i load_account_elapsed=1i iterator_elapsed=4i num_keys_iterated=1i
+[2022-06-11T04:10:47.812127422Z INFO  solana_metrics::metrics] datapoint: collect_rent_eagerly accounts=1i partitions=1i
+[2022-06-11T04:10:47.812489022Z INFO  solana_runtime::bank] bank frozen: 0 hash: FaLZgGhr7n8YK6kLBNWPcqq3GT1ecmapcx4HSx8pevxy accounts_delta: G3N8Wm3zZr9xMCcz4G8Ekx5y5EpN3WJDXVZpTq8Twspe signature_count: 0 last_blockhash: Eza7UCzfXbdycXpf4JLKZqeLseSmB4HJhA9tbmBVp3vd capitalization: 503000502132482497
+[2022-06-11T04:10:47.812523921Z INFO  solana_runtime::bank] accounts hash slot: 0 stats: BankHashStats { num_updated_accounts: 92, num_removed_accounts: 0, num_lamports_stored: 503000502175189058, total_data_len: 729928, num_executable_accounts: 17 }
+[2022-06-11T04:10:47.812547504Z INFO  solana_metrics::metrics] datapoint: slot_repeated_writes same_account_writes=2i same_account_writes_size=6022i unique_account_writes_size=723906i size=723906i
+[2022-06-11T04:10:47.812567158Z INFO  solana_metrics::metrics] datapoint: accounts_cache_size num_roots=0i num_slots=1i total_unique_writes_size=723906i total_size=723906i
+[2022-06-11T04:10:47.812613628Z INFO  solana_ledger::blockstore_processor] processing ledger from slot 0...
+[2022-06-11T04:10:47.812670879Z INFO  solana_ledger::blockstore_processor] ledger holds data through slot 0
+[2022-06-11T04:10:47.857178422Z INFO  solana_ledger::blockstore_processor] load_frozen_forks() latest root from blockstore: 0, max_root: 0
+[2022-06-11T04:10:47.872384355Z INFO  solana_metrics::metrics] datapoint: calculate_accounts_hash_without_index accounts_scan=4485i eliminate_zeros=9905i hash=29i hash_time_pre_us=0i sort=6i hash_total=90i storage_sort_us=1i unreduced_entries=90i collect_snapshots_us=59i num_snapshot_storage=0i num_slots=0i min_bin_size=0i max_bin_size=1i total=14479i
+[2022-06-11T04:10:47.872407246Z INFO  solana_metrics::metrics] datapoint: cache_hash_data_stats cache_file_size=0i cache_file_count=0i total_entries=0i loaded_from_cache=0i saved_to_cache=0i entries_loaded_from_cache=0i save_us=0i write_to_mmap_us=0i create_save_us=0i load_us=0i read_us=0i decode_us=0i unused_cache_files=0i
+[2022-06-11T04:10:47.872431036Z INFO  solana_ledger::blockstore_processor] ledger processing timing: ExecuteTimings { check_us: 0, load_us: 0, execute_us: 0, store_us: 0, update_stakes_cache_us: 0, total_batches_len: 0, num_execute_batches: 0, details: ExecuteDetailsTimings { serialize_us: 0, create_vm_us: 0, execute_us: 0, deserialize_us: 0, changed_account_count: 0, total_account_count: 0, total_data_size: 0, data_size_changed: 0, per_program_timings: {} } }
+[2022-06-11T04:10:47.872452934Z INFO  solana_ledger::blockstore_processor] ledger processed in 44 ms, 579 µs and 107 ns. root slot is 0, 1 fork at 0, with 1 frozen bank
+[2022-06-11T04:10:47.872460718Z INFO  solana_metrics::metrics] datapoint: process_blockstore_from_root total_time_us=44579i frozen_banks=1i slot=0i forks=1i calculate_capitalization_us=15221i full_snapshot_untar_us=0i incremental_snapshot_untar_us=0i rebuild_bank_from_snapshots_us=0i verify_snapshot_bank_us=0i
+[2022-06-11T04:10:47.872485821Z INFO  solana_core::validator] Ignoring expected failed tower restore because this is the initial validator start with the vote account...
+[2022-06-11T04:10:47.872528450Z INFO  solana_core::validator] Tower state: Tower { node_pubkey: 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3, threshold_depth: 8, threshold_size: 0.6666666666666666, vote_state: VoteState { node_pubkey: 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3, authorized_withdrawer: EMAz797qdBBM2mnSXkze1YWccSKZkinSxobKYoxYTufJ, commission: 0, votes: [], root_slot: Some(0), authorized_voters: AuthorizedVoters { authorized_voters: {0: EMAz797qdBBM2mnSXkze1YWccSKZkinSxobKYoxYTufJ} }, prior_voters: CircBuf { buf: [(11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0), (11111111111111111111111111111111, 0, 0)], idx: 31, is_empty: true }, epoch_credits: [], last_timestamp: BlockTimestamp { slot: 0, timestamp: 0 } }, last_vote: Vote { slots: [], hash: 11111111111111111111111111111111, timestamp: None }, last_vote_tx_blockhash: 11111111111111111111111111111111, last_timestamp: BlockTimestamp { slot: 0, timestamp: 0 }, stray_restored_slot: None, last_switch_threshold_check: None }
+[2022-06-11T04:10:47.872570145Z INFO  solana_core::sample_performance_service] Starting SamplePerformance service
+[2022-06-11T04:10:47.872612071Z INFO  solana_core::validator] Starting validator with working bank slot 0
+[2022-06-11T04:10:47.875543349Z INFO  solana_core::validator] ContactInfo { id: 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3, gossip: 127.0.0.1:1024, tvu: 127.0.0.1:1025, tvu_forwards: 127.0.0.1:1026, repair: 127.0.0.1:1031, tpu: 127.0.0.1:1027, tpu_forwards: 127.0.0.1:1028, tpu_vote: 127.0.0.1:1029, rpc: 127.0.0.1:8899, rpc_pubsub: 127.0.0.1:8900, serve_repair: 127.0.0.1:1032, wallclock: 1654920647872, shred_version: 8454 }
+[2022-06-11T04:10:47.875567253Z INFO  solana_core::validator] local gossip address: 0.0.0.0:1024
+[2022-06-11T04:10:47.875570908Z INFO  solana_core::validator] local broadcast address: 0.0.0.0:1033
+[2022-06-11T04:10:47.875574075Z INFO  solana_core::validator] local repair address: 0.0.0.0:1031
+[2022-06-11T04:10:47.875577146Z INFO  solana_core::validator] local retransmit address: 0.0.0.0:1030
+[2022-06-11T04:10:48.354479263Z INFO  solana_core::validator] Starting PoH: epoch=0 slot=0 tick_height=64 blockhash=Eza7UCzfXbdycXpf4JLKZqeLseSmB4HJhA9tbmBVp3vd leader=Some(5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3)
+[2022-06-11T04:10:48.354535033Z INFO  solana_poh::poh_recorder] poh_record: max_tick_height 64 reached, clearing working_bank 0
+[2022-06-11T04:10:48.354588463Z INFO  solana_metrics::metrics] datapoint: leader-slot-start-to-cleared-elapsed-ms slot=0i elapsed=0i
+[2022-06-11T04:10:48.358131023Z INFO  solana_rpc::rpc_service] rpc bound to 0.0.0.0:8899
+[2022-06-11T04:10:48.358140238Z INFO  solana_rpc::rpc_service] rpc configuration: JsonRpcConfig { enable_rpc_transaction_history: true, enable_cpi_and_log_storage: true, faucet_addr: Some(0.0.0.0:9900), health_check_slot_distance: 0, enable_bigtable_ledger_storage: false, enable_bigtable_ledger_upload: false, max_multiple_accounts: None, account_indexes: AccountSecondaryIndexes { keys: None, indexes: {} }, rpc_threads: 0, rpc_niceness_adj: 0, rpc_bigtable_timeout: None, minimal_api: false, obsolete_v1_7_api: false, rpc_scan_and_fix_roots: false }
+[2022-06-11T04:10:48.358849392Z INFO  solana_rpc::rpc_pubsub_service] rpc_pubsub bound to 0.0.0.0:8900
+[2022-06-11T04:10:48.359309270Z INFO  solana_net_utils::ip_echo_server] bound to 0.0.0.0:1024
+[2022-06-11T04:10:48.360122679Z INFO  solana_sys_tuner] Sending tuning request
+[2022-06-11T04:10:48.360154864Z WARN  solana_sys_tuner] Failed to send tuning request, is `solana-sys-tuner` running? Os { code: 2, kind: NotFound, message: "No such file or directory" }
+[2022-06-11T04:10:48.361040674Z INFO  solana_core::tvu] snapshot_interval_slots: 100
+[2022-06-11T04:10:48.361159591Z INFO  solana_metrics::metrics] datapoint: cost-update-service-stats total_elapsed_us=1654920648361000i update_cost_model_count=0i update_cost_model_elapsed=0i persist_cost_table_elapsed=0i
+[2022-06-11T04:10:48.361225605Z INFO  solana_core::ledger_cleanup_service] LedgerCleanupService active. max ledger shreds=10000, compaction interval=100
+[2022-06-11T04:10:48.361293819Z INFO  solana_runtime::accounts_background_service] AccountsBackgroundService active
+[2022-06-11T04:10:48.361324764Z INFO  solana_metrics::metrics] datapoint: tower-observed slot=0i root=0i
+[2022-06-11T04:10:48.361337319Z INFO  solana_metrics::metrics] datapoint: compute_bank_stats-best_slot computed_slot=0i overall_best_slot=0i overall_best_hash="FaLZgGhr7n8YK6kLBNWPcqq3GT1ecmapcx4HSx8pevxy" elapsed=2i
+[2022-06-11T04:10:48.361345788Z INFO  solana_metrics::metrics] datapoint: bank_weight slot=0i weight="0"
+[2022-06-11T04:10:48.361344737Z INFO  solana_core::replay_stage] EMAz797qdBBM2mnSXkze1YWccSKZkinSxobKYoxYTufJ slot_weight: 0 0 0 0
+[2022-06-11T04:10:48.361362411Z INFO  solana_core::replay_stage] voting: 0 0
+[2022-06-11T04:10:48.361395206Z INFO  solana_metrics::metrics] datapoint: tower-vote latest=0i root=0i
+[2022-06-11T04:10:48.361457199Z INFO  solana_metrics::metrics] datapoint: block-commitment-cache aggregate-commitment-ms=0i highest-confirmed-root=0i highest-confirmed-slot=0i
+[2022-06-11T04:10:48.361478420Z INFO  solana_metrics::metrics] datapoint: pubsub_notification_entries notification_entry_processing_count=1i notification_entry_processing_time_us=15i
+[2022-06-11T04:10:48.361496071Z INFO  solana_core::replay_stage] vote bank: Some((0, SameFork)) reset bank: 0
+[2022-06-11T04:10:48.361515374Z INFO  solana_metrics::metrics] datapoint: blocks_produced num_blocks_on_fork=0i num_dropped_blocks_on_fork=0i
+[2022-06-11T04:10:48.361526200Z INFO  solana_poh::poh_recorder] reset poh from: Eza7UCzfXbdycXpf4JLKZqeLseSmB4HJhA9tbmBVp3vd,64,0 to: Eza7UCzfXbdycXpf4JLKZqeLseSmB4HJhA9tbmBVp3vd,0
+[2022-06-11T04:10:48.361537046Z INFO  solana_core::replay_stage] 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3 reset PoH to tick 64 (within slot 0). My next leader slot is 1
+[2022-06-11T04:10:48.361553730Z INFO  solana_core::replay_stage] new fork:1 parent:0 (leader) root:0
+[2022-06-11T04:10:48.361557787Z INFO  solana_metrics::metrics] datapoint: replay_stage-new_leader slot=1i leader="5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3"
+[2022-06-11T04:10:48.361576660Z INFO  solana_metrics::metrics] datapoint: replay_stage-my_leader_slot slot=1i
+[2022-06-11T04:10:48.361663085Z INFO  solana_metrics::metrics] datapoint: bank-timestamp get_timestamp_estimate_us=1i
+[2022-06-11T04:10:48.361668074Z INFO  solana_metrics::metrics] datapoint: bank-timestamp-correction slot=1i from_genesis=1654920643i corrected=1654920643i ancestor_timestamp=1654920643i
+[2022-06-11T04:10:48.361761856Z INFO  solana_metrics::metrics] datapoint: bank-new_from_parent-heights slot_height=1i block_height=1i parent_slot_height=0i time_us=195i
+[2022-06-11T04:10:48.361766380Z INFO  solana_metrics::metrics] datapoint: replay-loop-voting-stats vote_push_us=0i vote_send_us=0i generate_vote_us=67i update_commitment_cache_us=4i
+[2022-06-11T04:10:48.361774657Z INFO  solana_metrics::metrics] datapoint: replay-loop-timing-stats total_elapsed_us=1654920648361000i collect_frozen_banks_elapsed=0i compute_bank_stats_elapsed=42i select_vote_and_reset_forks_elapsed=4i start_leader_elapsed=218i reset_bank_elapsed=49i voting_elapsed=128i select_forks_elapsed=0i compute_slot_stats_elapsed=1i generate_new_bank_forks_elapsed=18i replay_active_banks_elapsed=9i process_gossip_duplicate_confirmed_slots_elapsed=0i process_unfrozen_gossip_verified_vote_hashes_elapsed=0i wait_receive_elapsed=0i heaviest_fork_failures_elapsed=0i bank_count=0i process_duplicate_slots_elapsed=0i repair_correct_slots_elapsed=0i
+[2022-06-11T04:10:48.362678111Z INFO  solana_metrics::metrics] datapoint: validator-new id="5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3"
+[2022-06-11T04:10:48.363814232Z INFO  solana_gossip::gossip_service] Entrypoint: Some(127.0.0.1:1024)
+[2022-06-11T04:10:48.363828919Z INFO  solana_gossip::gossip_service] Node Id: D3dZMGNTswuZnk8pXJjm9q3m2SnRxfMwFVDUNFZqjtCS
+[2022-06-11T04:10:48.424535052Z INFO  solana_metrics::metrics] datapoint: rpc_pubsub_connections count=1i
+[2022-06-11T04:10:48.424757793Z INFO  solana_metrics::metrics] datapoint: rpc_pubsub_total_subscriptions count=1i
+[2022-06-11T04:10:48.424764855Z INFO  solana_metrics::metrics] datapoint: rpc-subscription total=1i
+[2022-06-11T04:10:48.561352970Z INFO  solana_core::window_service] num addresses: 0, top packets by source: []
+[2022-06-11T04:10:48.561352298Z INFO  solana_metrics::metrics] datapoint: receive_window_stats num_packets=0i num_shreds=0i num_repairs=0i elapsed_micros=0i
+[2022-06-11T04:10:48.649752250Z INFO  solana_metrics::metrics] datapoint: memory-stats total=8169406464i swap_total=2097148i free_percent=2.4663522243499756 used_bytes=4984381440i avail_percent=38.98722457885742 buffers_percent=2.1738455295562744 cached_percent=41.81522750854492 swap_free_percent=99.95059967041016
+[2022-06-11T04:10:48.663346333Z INFO  solana_gossip::cluster_info] Setting shred version to 8454 from entrypoint 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3
+[2022-06-11T04:10:48.770880348Z INFO  solana_poh::poh_recorder] poh_record: max_tick_height 128 reached, clearing working_bank 1
+[2022-06-11T04:10:48.770975533Z INFO  solana_core::replay_stage] bank frozen: 1
+[2022-06-11T04:10:48.770986731Z INFO  solana_metrics::metrics] datapoint: leader-slot-start-to-cleared-elapsed-ms slot=1i elapsed=409i
+[2022-06-11T04:10:48.770998832Z INFO  solana_metrics::metrics] datapoint: replay-slot-stats slot=1i fetch_entries_time=0i fetch_entries_fail_time=0i entry_poh_verification_time=0i entry_transaction_verification_time=0i replay_time=0i replay_total_elapsed=409188i total_entries=0i total_shreds=0i check_us=0i load_us=0i execute_us=0i store_us=0i update_stakes_cache_us=0i total_batches_len=0i num_execute_batches=0i serialize_us=0i create_vm_us=0i execute_inner_us=0i deserialize_us=0i changed_account_count=0i total_account_count=0i total_data_size=0i data_size_changed=0i
+[2022-06-11T04:10:48.771004459Z INFO  solana_metrics::metrics] datapoint: per_program_timings slot=1i pubkey="all" execute_us=0i accumulated_units=0i count=0i
+[2022-06-11T04:10:48.771036468Z INFO  solana_metrics::metrics] datapoint: load_to_collect_rent_eagerly_scan_elapsed total_elapsed=19i latest_slot_elapsed=0i read_lock_elapsed=0i load_account_elapsed=0i iterator_elapsed=0i num_keys_iterated=0i
+[2022-06-11T04:10:48.771051554Z INFO  solana_metrics::metrics] datapoint: collect_rent_eagerly accounts=0i partitions=1i
+[2022-06-11T04:10:48.771118932Z INFO  solana_metrics::metrics] datapoint: shred_insert_is_full total_time_ms=411i slot=1i last_index=63i num_repaired=0i num_recovered=0i
+[2022-06-11T04:10:48.771387379Z INFO  solana_runtime::bank] bank frozen: 1 hash: EmCFwXPVzpcbemQFuM5tEuK8SYq6hsV5Ch3juZLWbwPR accounts_delta: 5cFsyh5MeRRAe6mF245cjnHzDNnu3S2fev9cpWpxuWKi signature_count: 2 last_blockhash: C1i9SYBTM8ucuTDgHMoYV6brJHMPkfGvb8pmcrCtDNLQ capitalization: 503000502275969857
+[2022-06-11T04:10:48.771401479Z INFO  solana_runtime::bank] accounts hash slot: 1 stats: BankHashStats { num_updated_accounts: 6, num_removed_accounts: 0, num_lamports_stored: 1000501100689200, total_data_len: 161364, num_executable_accounts: 0 }
+[2022-06-11T04:10:48.771415427Z INFO  solana_metrics::metrics] datapoint: slot_repeated_writes same_account_writes=0i same_account_writes_size=0i unique_account_writes_size=161364i size=161364i
+[2022-06-11T04:10:48.771423748Z INFO  solana_metrics::metrics] datapoint: accounts_cache_size num_roots=0i num_slots=2i total_unique_writes_size=885270i total_size=885270i
+[2022-06-11T04:10:48.771422200Z INFO  solana_core::cluster_slot_state_verifier] check_slot_agrees_with_cluster()
+            slot: 1,
+            root: 0,
+            slot_state_update: BankFrozen(BankFrozenState { frozen_hash: EmCFwXPVzpcbemQFuM5tEuK8SYq6hsV5Ch3juZLWbwPR, cluster_confirmed_hash: None, is_slot_duplicate: false })
+[2022-06-11T04:10:48.771473744Z INFO  solana_metrics::metrics] datapoint: tower-observed slot=0i root=0i
+[2022-06-11T04:10:48.771492881Z INFO  solana_metrics::metrics] datapoint: compute_bank_stats-best_slot computed_slot=1i overall_best_slot=1i overall_best_hash="EmCFwXPVzpcbemQFuM5tEuK8SYq6hsV5Ch3juZLWbwPR" elapsed=6i
+[2022-06-11T04:10:48.771500112Z INFO  solana_metrics::metrics] datapoint: bank_weight slot=1i weight="0"
+[2022-06-11T04:10:48.771492863Z INFO  solana_core::replay_stage] EMAz797qdBBM2mnSXkze1YWccSKZkinSxobKYoxYTufJ slot_weight: 1 0 0 0
+[2022-06-11T04:10:48.771514434Z INFO  solana_core::replay_stage] validator fork confirmed 0 410ms
+[2022-06-11T04:10:48.771522638Z INFO  solana_metrics::metrics] datapoint: validator-confirmation duration_ms=410i
+[2022-06-11T04:10:48.771521024Z INFO  solana_core::cluster_slot_state_verifier] check_slot_agrees_with_cluster()
+            slot: 0,
+            root: 0,
+            slot_state_update: DuplicateConfirmed(DuplicateConfirmedState { duplicate_confirmed_hash: FaLZgGhr7n8YK6kLBNWPcqq3GT1ecmapcx4HSx8pevxy, bank_status: Frozen(FaLZgGhr7n8YK6kLBNWPcqq3GT1ecmapcx4HSx8pevxy) })
+[2022-06-11T04:10:48.771538855Z INFO  solana_core::replay_stage] voting: 1 0
+[2022-06-11T04:10:48.771549595Z INFO  solana_metrics::metrics] datapoint: tower-vote latest=1i root=0i
+[2022-06-11T04:10:48.771609195Z INFO  solana_metrics::metrics] datapoint: block-commitment-cache aggregate-commitment-ms=0i highest-confirmed-root=0i highest-confirmed-slot=0i
+[2022-06-11T04:10:48.771651892Z INFO  solana_core::replay_stage] vote bank: Some((1, SameFork)) reset bank: 1
+[2022-06-11T04:10:48.771662806Z INFO  solana_metrics::metrics] datapoint: blocks_produced num_blocks_on_fork=1i num_dropped_blocks_on_fork=0i
+[2022-06-11T04:10:48.771669439Z INFO  solana_poh::poh_recorder] reset poh from: C1i9SYBTM8ucuTDgHMoYV6brJHMPkfGvb8pmcrCtDNLQ,128,1 to: C1i9SYBTM8ucuTDgHMoYV6brJHMPkfGvb8pmcrCtDNLQ,1
+[2022-06-11T04:10:48.771679569Z INFO  solana_core::replay_stage] 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3 reset PoH to tick 128 (within slot 1). My next leader slot is 2
+[2022-06-11T04:10:48.771691954Z INFO  solana_core::replay_stage] new fork:2 parent:1 (leader) root:0
+[2022-06-11T04:10:48.771692807Z INFO  solana_metrics::metrics] datapoint: replay_stage-new_leader slot=2i leader="5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3"
+[2022-06-11T04:10:48.771704510Z INFO  solana_metrics::metrics] datapoint: replay_stage-my_leader_slot slot=2i
+[2022-06-11T04:10:48.771742384Z INFO  solana_metrics::metrics] datapoint: bank-timestamp get_timestamp_estimate_us=2i
+[2022-06-11T04:10:48.771748457Z INFO  solana_metrics::metrics] datapoint: bank-timestamp-correction slot=2i from_genesis=1654920643i corrected=1654920643i ancestor_timestamp=1654920643i
+[2022-06-11T04:10:48.771768808Z INFO  solana_metrics::metrics] datapoint: bank-new_from_parent-heights slot_height=2i block_height=2i parent_slot_height=1i time_us=63i
+[2022-06-11T04:10:48.772327789Z INFO  solana_metrics::metrics] datapoint: broadcast-process-shreds-stats slot=1i shredding_time=7259i receive_time=392638i num_data_shreds=64i slot_broadcast_time=405784i get_leader_schedule_time=1i serialize_shreds_time=20i gen_data_time=6809i gen_coding_time=2883i sign_coding_time=1818i coding_send_time=2883i
+[2022-06-11T04:10:48.772351351Z INFO  solana_metrics::metrics] datapoint: broadcast-transmit-shreds-stats slot=1i end_to_end_elapsed=405796i transmit_elapsed=518i send_mmsg_elapsed=52i get_peers_elapsed=0i num_shreds=128i shred_select=379i total_packets=0i dropped_packets=0i
+[2022-06-11T04:10:48.772533632Z INFO  solana_metrics::metrics] datapoint: broadcast-insert-shreds-stats slot=1i end_to_end_elapsed=405997i insert_shreds_elapsed=12301i num_shreds=128i
+[2022-06-11T04:10:48.777545191Z INFO  solana_core::cluster_slot_state_verifier] check_slot_agrees_with_cluster()
+            slot: 1,
+            root: 0,
+            slot_state_update: DuplicateConfirmed(DuplicateConfirmedState { duplicate_confirmed_hash: EmCFwXPVzpcbemQFuM5tEuK8SYq6hsV5Ch3juZLWbwPR, bank_status: Frozen(EmCFwXPVzpcbemQFuM5tEuK8SYq6hsV5Ch3juZLWbwPR) })
+[2022-06-11T04:10:48.777576363Z INFO  solana_metrics::metrics] datapoint: optimistic_slot_elapsed average_elapsed_ms=415i
+[2022-06-11T04:10:48.777592946Z INFO  solana_metrics::metrics] datapoint: optimistic_slot slot=1i
+[2022-06-11T04:10:48.777580249Z INFO  solana_core::heaviest_subtree_fork_choice] marking fork starting at: (1, EmCFwXPVzpcbemQFuM5tEuK8SYq6hsV5Ch3juZLWbwPR) valid candidate
+[2022-06-11T04:10:48.861595381Z INFO  solana_metrics::metrics] datapoint: cost_tracker_stats bank_slot=1i block_cost=0i transaction_count=1i number_of_accounts=2i costliest_account="11111111111111111111111111111111" costliest_account_cost=0i
+[2022-06-11T04:10:48.862702560Z INFO  solana_metrics::metrics] datapoint: cluster_info_vote_listener-bank-send-vote-stats slot=1i num_votes_sent=0i total_elapsed=2i num_batches_sent=0i
+[2022-06-11T04:10:48.864564821Z INFO  solana_gossip::gossip_service] discover success in 0s...
+    IP Address        |Age(ms)| Node identifier                              | Version |Gossip|TPUvote| TPU  |TPUfwd| TVU  |TVUfwd|Repair|ServeR|ShredVer
+    ------------------+-------+----------------------------------------------+---------+------+------+-------+------+------+------+------+------+--------
+    none            me|   501 | D3dZMGNTswuZnk8pXJjm9q3m2SnRxfMwFVDUNFZqjtCS |  1.9.1  | none | none | none | none | none | none | none | none | 0
+    127.0.0.1         |    99 | 5ujLQsKFctNQJko5JHWZHbJTVW8FtxK9zUh7mevDcuN3 |  1.9.1  | 1024 | 1029 | 1027 | 1028 | 1025 | 1026 | 1031 | 1032 | 8454
+    Nodes: 1
+    Spies: 1
